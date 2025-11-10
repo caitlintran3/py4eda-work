@@ -38,7 +38,7 @@ Complete this section with details from your setup:
 #### Question 1: Git Workflow Benefits
 
 **a)**  
-Before this assignment, I usually managed versions by saving multiple copies of files with different names like “final_v2” or “final_revised”. It worked okay, but got messy fast. Git is way more organized. It tracks changes automatically, keeps a clean history, and lets me go back to any version without cluttering my folders. It also makes collaboration easier since everyone can work on the same repo without overwriting each other.
+Before this assignment, I usually managed versions by saving multiple copies of files with different names like “final_v2” or “final_revised”. It worked okay, but got confusing fast. Git is a lot more organized by tracking changes automatically, keeping a clean history, and letting me go back to any version without cluttering my folders. It also makes collaboration easier since everyone can work on the same repo without overwriting each other.
 
 **b)**  
 In a previous group project, we kept emailing updated files back and forth. It was hard to tell who changed what and when. If we had used Git, the commit history would’ve shown exactly what each person contributed and when. It would’ve saved us a lot of confusion and helped us debug faster.
@@ -46,10 +46,10 @@ In a previous group project, we kept emailing updated files back and forth. It w
 #### Question 2: Repository Organization
 
 **a)**  
-Keeping `class_repo` and `my_repo` separate is important because they serve different purposes. The class repo is a reference — I shouldn’t be changing it. My repo is where I do my work and push updates. If I mixed everything into one repo, I’d risk overwriting the instructor’s materials or losing track of what’s mine versus what’s provided.
+Keeping `class_repo` and `my_repo` separate is important because they serve different purposes. The class repo is a reference and I shouldn’t be changing it. My repo is where I do my work and push updates. If I mixed everything into one repo, I’d risk overwriting the instructor’s materials or losing track of what’s mine versus what’s provided.
 
 **b)**  
-For future projects, I’d keep separate repos for each major assignment. For group projects, I’d create a shared repo with clear folders for each member’s contributions. For reference materials, I’d clone or fork them into read-only repos so I can pull updates without affecting my own work.
+For future projects, I’d keep separate repos for each major assignment. For group projects, I’d create a shared repo with clear folders for each member’s contributions. For reference materials, I’d clone them into read-only repos so I can pull updates without affecting my own work.
 
 #### Question 3: Commit Messages and History
 
@@ -57,7 +57,7 @@ For future projects, I’d keep separate repos for each major assignment. For gr
 “Add hw3a solution documenting Git workflow and repository structure” is way more useful than “update”. It tells me exactly what was added and why. If I ever need to find the commit where I documented my workflow, I can search by message. Vague messages like “update” don’t help when you’re trying to debug or review history.
 
 **b)**  
-In a multi-week data analysis project, I’d commit whenever I finish a logical chunk of work — like loading data, cleaning it, or building a function. A good unit of work is something that’s complete and testable. I wouldn’t commit half-finished code unless I’m saving a checkpoint. Clear, focused commits make it easier to track progress and roll back if needed.
+In a multiple-week data analysis project, I’d commit whenever I finish a logical chunk of work, such as loading data, cleaning it, or building a function. A good unit of work is something that’s complete and testable. I wouldn’t commit half-finished code unless I’m saving a checkpoint. Clear, focused commits make it easier to track progress and come back if needed.
 
 ---
 
@@ -66,18 +66,18 @@ In a multi-week data analysis project, I’d commit whenever I finish a logical 
 #### Question 1: The Three-Stage Model
 
 **a)**  
-Committing README.md and .gitignore together made sense because they’re setup files. Committing hw3a-solution.md separately kept the documentation changes distinct. If I had committed everything at once, the history would be less clear — I wouldn’t be able to tell when I started documenting versus when I set up the repo.
+Committing README.md and .gitignore together made sense because they’re setup files. Committing hw3a-solution.md separately kept the documentation changes distinct. If I had committed everything at once, the history would be less clear, I wouldn’t be able to tell when I started documenting versus when I set up the repo.
 
 **b)**  
-I’d commit the typo fix and README update now — they’re complete and won’t change. I’d wait on the half-finished analysis function until it’s working. Staging lets me choose what to commit and what to hold back, so I don’t clutter the history with incomplete work.
+I’d commit the typo fix and README update now. They’re complete and won’t change. I’d wait on the half-finished analysis function until it’s working. Staging lets me choose what to commit and what to hold back, so I don’t clutter the history with incomplete work.
 
 **c)**  
-`git status` shows me what’s changed, what’s staged, and what’s untracked. I use it constantly before committing to make sure I’m only including the right files. It helps me avoid mistakes and keeps my commits clean.
+`git status` shows me what’s changed, staged, and untracked. I use it constantly before committing to make sure I’m only including the right files. It helps me avoid mistakes and keeps my commits clean.
 
 #### Question 2: Local vs. Remote Repositories
 
 **a)**  
-Git is distributed, meaning every copy of the repo has the full history. With Google Drive or Dropbox, you’re just syncing files — there’s no version control. With Git, I can work offline, track changes, and merge updates from others without needing a central server.
+Git is distributed, meaning every copy of the repo has the full history. With Google Drive or Dropbox, you’re just syncing files and there’s no version control. With Git, I can work offline, track changes, and merge updates from others without needing a central server.
 
 **b)**  
 Being able to work offline is huge. I can make commits, view logs, and test code without internet. Later, I just push to GitHub to sync. This supports workflows like traveling, working in low-connectivity environments, or coding on the go.
